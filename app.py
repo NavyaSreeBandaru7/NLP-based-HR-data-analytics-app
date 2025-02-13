@@ -1,3 +1,5 @@
+import nltk
+nltk.download('vader_lexicon')  # Added NLTK data download
 import streamlit as st
 import pandas as pd
 import numpy as np
